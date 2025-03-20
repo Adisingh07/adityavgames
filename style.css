@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #222;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('images/gaming-bg.jpg') center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Games Section */
+.games-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.games-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game {
+    background: #444;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.game img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 50px;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    /* background: #fff; */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+header {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1, h2 {
+    color: #08c79a;
+}
+h3{
+    color: #fff;
+}
+ul {
+    padding-left: 20px;
+}
